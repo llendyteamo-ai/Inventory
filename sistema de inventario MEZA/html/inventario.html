@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario completo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Inventario</h1>
+            <p>Visualiza todos los productos guardados en el inventario.</p>
+        </div>
+    </header>
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./inventario.html">Inventario</a>
+        <a href="./agregar.html">Agregar producto</a>
+    </nav>
+    <main>
+        <section class="panel">
+            <div class="section-header">
+                <h2>Inventario completo</h2>
+                <a class="primary-button" href="./agregar.html">Agregar producto</a>
+            </div>
+            <input type="search" id="searchInput" placeholder="Buscar por nombre o categoría">
+            <div class="table-wrapper">
+                <table id="productTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Categoría</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                            <th>Total</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <p id="emptyMessage" class="empty-message">No hay productos en el inventario. Agrega el primero.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Inventario MEZA. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../javascript/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Inventario</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Sistema de Inventario</h1>
+            <p>Gestiona productos, cantidades y valores en un solo lugar.</p>
+        </div>
+    </header>
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./inventario.html">Inventario</a>
+        <a href="./agregar.html">Agregar producto</a>
+    </nav>
+    <main>
+        <section class="panel">
+            <h2>Bienvenido</h2>
+            <p>Usa las páginas para ver el inventario completo, agregar un producto nuevo o editar uno existente.</p>
+            <div class="cards">
+                <div class="card">
+                    <span>Total productos</span>
+                    <strong id="totalProducts">0</strong>
+                </div>
+                <div class="card">
+                    <span>Total existencias</span>
+                    <strong id="totalStock">0</strong>
+                </div>
+                <div class="card">
+                    <span>Valor total</span>
+                    <strong id="totalValue">$0.00</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Inventario. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../javascript/app.js"></script>
+</body>
+</html> 
